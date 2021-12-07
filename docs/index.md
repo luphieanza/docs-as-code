@@ -1,4 +1,4 @@
-# Welcome to Warung Pintar Docs-as-Code Approach
+# Welcome to Warung Pintar Internal TechDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

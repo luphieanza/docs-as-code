@@ -2,21 +2,31 @@ site_name: Warung Pintar TechDocs
 site_url: https://luphieanza.github.io/docs-as-code.github.io/
 nav:
     - Home: index.md
-    - About: about.md
-    - Tutorials: tutorials.md
+    - Getting Started: about.md
+    - API: tutorials.md
 theme:
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   name: material
+  font:
+    text: Nunito Sans
+    code: Open Sans
   favicon: img/Logo_AWP.svg
   logo: img/Logo_AWP.svg
-  palette:
-    primary: yellow
   language: en
 plugins:
   - search:
       lang: # 
         - en
         - id
-copyright: Copyright &copy; 2021 Warung Pintar
+copyright: Copyright &copy; 2017-2021 Warung Pintar Group
 extra:
   social:
     - icon: fontawesome/brands/medium
@@ -29,3 +39,5 @@ extra:
       link: https://example.com/
   version:
     provider: mike
+extra_css:
+  - stylesheets/extra.css

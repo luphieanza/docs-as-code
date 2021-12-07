@@ -1,4 +1,4 @@
-# Nymphae omnia res verbis
+# Getting Started
 
 ## Imae prius ducit
 
