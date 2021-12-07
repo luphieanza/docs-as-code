@@ -1,8 +1,31 @@
-site_name: Warpin-Docs
+site_name: Warung Pintar TechDocs
 site_url: https://luphieanza.github.io/docs-as-code.github.io/
 nav:
     - Home: index.md
     - About: about.md
+    - Tutorials: tutorials.md
 theme:
   name: material
-  favicon: img/favicon.ico
+  favicon: img/Logo_AWP.svg
+  logo: img/Logo_AWP.svg
+  palette:
+    primary: yellow
+  language: en
+plugins:
+  - search:
+      lang: # 
+        - en
+        - id
+copyright: Copyright &copy; 2021 Warung Pintar
+extra:
+  social:
+    - icon: fontawesome/brands/medium
+      link: https://example.com/
+    - icon: fontawesome/brands/docker
+      link: https://example.com/
+    - icon: fontawesome/brands/linkedin
+      link: https://example.com/
+    - icon: fontawesome/brands/instagram
+      link: https://example.com/
+  version:
+    provider: mike
