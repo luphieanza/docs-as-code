@@ -1,0 +1,8 @@
+site_name: Warpin-Docs
+site_url: https://luphieanza.github.io/docs-as-code.github.io/
+nav:
+    - Home: index.md
+    - About: about.md
+theme:
+  name: material
+  favicon: img/favicon.ico
