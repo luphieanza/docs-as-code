@@ -2,8 +2,9 @@ site_name: Warung Pintar TechDocs
 site_url: https://luphieanza.github.io/docs-as-code.github.io/
 nav:
     - Home: index.md
-    - Getting Started: about.md
+    - Getting Started: getting-started.md
     - API: tutorials.md
+    - About: about.md
 theme:
   palette:
     - scheme: default
