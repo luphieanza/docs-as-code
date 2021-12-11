@@ -1,21 +1,14 @@
-image: python:latest
+image: python:3.10.1
+
+before_script:
+  - pip install -r requirements.txt
 
 pages:
-
-  stage: deploy
-
-  only:
-
-    - main
-
   script:
-
-    - pip install mkdocs-material
-
-    - mkdocs build --site-dir public
-
+    - mkdocs build
+    - mv site public
   artifacts:
-
     paths:
-
       - public
+  only:
+    - main
