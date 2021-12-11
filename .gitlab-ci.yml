@@ -5,6 +5,7 @@ before_script:
 
 pages:
   script:
+    - pip install mkdocs-material
     - mkdocs build
     - mv site public
   artifacts:
