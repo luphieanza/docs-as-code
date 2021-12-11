@@ -1,5 +1,5 @@
 site_name: Warung Pintar TechDocs
-
+site_url: https://docs-as-code.pages.warungpintar.co/docs-as-code
 nav:
     - Home: index.md
     - Getting Started: getting-started.md
