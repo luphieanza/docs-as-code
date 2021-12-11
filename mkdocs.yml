@@ -6,6 +6,7 @@ nav:
     - API: tutorials.md
     - About: about.md
 theme:
+  name: material
   palette:
     - scheme: default
       toggle:
@@ -15,7 +16,6 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-  name: material
   font:
     text: Nunito Sans
     code: Open Sans

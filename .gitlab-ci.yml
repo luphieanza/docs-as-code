@@ -1,12 +1,10 @@
 image: python:3.10.1
 
-before_script:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install mkdocs-material-extensions
-
 pages:
   script:
+    - pip install mkdocs
+    - pip install mkdocs-material
+    - pip install mkdocs-material-extensions
     - mkdocs build
     - mv site public
   artifacts:
