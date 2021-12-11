@@ -1,14 +1,21 @@
-image: python:3.10.1
+image: python:latest
 
 pages:
-  script:
-    - pip install mkdocs
-    - pip install mkdocs-material
-    - pip install mkdocs-material-extensions
-    - mkdocs build
-    - mv site public
-  artifacts:
-    paths:
-      - public
+
+  stage: deploy
+
   only:
+
     - main
+
+  script:
+
+    - pip install mkdocs-material
+
+    - mkdocs build --site-dir public
+
+  artifacts:
+
+    paths:
+
+      - public
